@@ -2,6 +2,6 @@
 nomeApp="Hello-react"
 cd /appdir
 npm install
-npm audit fix
+npm audit fix --force
 #sudo supervisord
 sudo supervisorctl start $nomeApp
